@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("cartoon-characters-mordecai-and-rigby-stgu0vim5u4860f1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  color: white;
+}
+
+.quote-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+.quote-text {
+  font-size: 24px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.02);
+  color: white;
+  border: 0.2px solid green;
+  box-shadow: 1px 2px 1px grey;
+  padding: 0.4rem;
+}
+footer {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fffefe;
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(213, 245, 215);
+}
